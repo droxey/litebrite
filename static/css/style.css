@@ -1,0 +1,109 @@
+  .font-styles {
+    font-family: "Source Code Pro", Consolas, monaco, monospace;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+  }
+
+  body {
+    position: relative;
+    padding: 0px;
+  }
+
+  h2 {
+    margin-top: 12px;
+    /* display: none; */
+  }
+
+  #grid {
+    background: rgb(24, 24, 24);
+    border-radius: 8px;
+    padding: 12px 9px 9px 12px;
+    margin-left: 12px;
+    margin-top: 24px;
+    width: 812px;
+  }
+
+  #updates {
+    background: rgb(240, 240, 240);
+    font-family: "Source Code Pro", Consolas, monaco, monospace;
+    height: 810px;
+    overflow: scroll;
+    border-radius: 8px;
+    margin-right: 12px;
+    margin-top: 24px;
+    padding: 12px;
+    font-size: 16px;
+  }
+
+  #updates p {
+    background: white;
+    border-bottom: 1px solid #ccc;
+    line-height: 16px;
+    padding: 5px;
+    border-radius: 4px;
+  }
+
+  #updates p b {
+    font-weight: 700;
+  }
+
+  code {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .square {
+    width: 19px;
+    height: 19px;
+    display: inline-block;
+    position: relative;
+    stroke-width: 2px;
+    stroke: #cfd4d4;
+    stroke-opacity: 0.7;
+    fill-opacity: 0.85;
+    cursor: pointer;
+  }
+
+  .square.selected {
+    fill-opacity: 0.8;
+    animation: flicker 5s infinite 5s step-end;
+  }
+
+  @keyframes flicker {
+    0% {
+      fill-opacity: 1;
+    }
+
+    3% {
+      fill-opacity: 0.4;
+    }
+
+    6% {
+      fill-opacity: 1;
+    }
+
+    7% {
+      fill-opacity: 0.4;
+    }
+
+    8% {
+      fill-opacity: 1;
+    }
+
+    9% {
+      fill-opacity: 0.4;
+    }
+
+    10% {
+      fill-opacity: 1;
+    }
+
+    100% {
+      fill-opacity: 1;
+    }
+  }
