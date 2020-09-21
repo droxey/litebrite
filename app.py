@@ -1,10 +1,12 @@
-import os
-import pusher
-
 from dotenv import load_dotenv
-from flask import Flask, render_template
 
 load_dotenv()
+
+
+import os
+import pusher
+from flask import Flask, render_template
+
 
 app = Flask(__name__)
 
@@ -16,6 +18,7 @@ channels_client = pusher.Pusher(
     cluster=os.getenv("PUSHER_APP_CLUSTER"),
     ssl=True,
 )
+
 
 @app.route("/")
 def index():
