@@ -1,6 +1,15 @@
-# 💡 litebrite&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[⚡️ Play Now](https://repl.it/@droxey/litebrite-client?ref=button)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[👀 Watch Live](https://litebrite.live)
+# 💡 litebrite
 
-<p align="center">A <strong>real-time lite brite game</strong> you can play with anyone!</p>
+<p align="center">
+    A <strong>real-time lite brite game</strong> you can play with anyone!
+</p>
+
+<p align="center">
+   <font size="5">
+      <a title="⚡️ Play Now" href="https://repl.it/@droxey/litebrite-client?ref=button" target="_blank"><strong>⚡️ Play Now</strong></a> <small><em>(Students)</em></small> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a title="👀 Watch Live" href="https://litebrite.live" target="_blank"><strong>👀 Watch Live</strong></a> <small><em>(Teachers)</em></small>
+    </font
+</p>
 
 <p align="center"><img src="static/litebrite.png" width="700px"></p>
 
