@@ -23,7 +23,7 @@
   button.btn-lg a,
   button.btn-lg a:hover {
     color: white;
-    font-weight: 900;
+    font-weight: bold !important;
     text-decoration: none;
   }
 
@@ -59,7 +59,7 @@
   }
 
   #footer {
-    color: white;
+    color: white !important;
   }
 
   code {
