@@ -13,7 +13,7 @@
 
   h2 {
     color: white;
-    font-family: Monaco;
+    font-family: Monaco !important;
     font-weight: bold;
     letter-spacing: -0.11em;
   }
@@ -21,7 +21,7 @@
   button.btn-lg {
     margin-top: -6px;
     margin-right: 18px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif !important;
   }
 
 
