@@ -1,128 +1,129 @@
-  .font-styles {
-    font-family: "Source Code Pro", Consolas, monaco, monospace;
-    font-size: 18px;
-    line-height: 1.5;
-    font-weight: 400;
+.font-styles {
+  font-family: "Source Code Pro", Consolas, monaco, monospace;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  background: rgb(24, 24, 24);
+  position: relative;
+  padding: 0px;
+}
+
+h2 {
+  color: white;
+  font-family: Monaco !important;
+  font-weight: bold;
+  letter-spacing: -0.11em;
+  margin-left: 17px;
+}
+
+button.btn-lg {
+  margin-top: -6px;
+  margin-right: 18px;
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+
+button.btn-lg a,
+button.btn-lg a:hover {
+  color: white;
+  font-weight: bold !important;
+  text-decoration: none;
+}
+
+#grid {
+  background: rgb(24, 24, 24);
+  border-radius: 8px;
+  margin-top: 16px;
+  width: 800px;
+}
+
+#updates {
+  background: rgb(240, 240, 240);
+  font-family: "Source Code Pro", Consolas, monaco, monospace;
+  height: 790px;
+  overflow: scroll;
+  border-radius: 8px;
+  margin-top: 19px;
+  padding: 12px;
+  font-size: 16px;
+}
+
+#updates p {
+  background: white;
+  border-bottom: 1px solid #ccc;
+  line-height: 16px;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+#updates p b {
+  font-weight: 700;
+}
+
+#footer {
+  color: white !important;
+  margin-top: 19px;
+}
+
+code {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  text-align: center;
+}
+
+.square {
+  width: 19px;
+  height: 19px;
+  display: inline-block;
+  position: relative;
+  stroke-width: 2px;
+  stroke: #cfd4d4;
+  stroke-opacity: 0.7;
+  fill-opacity: 0.85;
+  cursor: pointer;
+}
+
+.square.selected {
+  fill-opacity: 0.8;
+  animation: flicker 5s infinite 5s step-end;
+}
+
+@keyframes flicker {
+  0% {
+    fill-opacity: 1;
   }
 
-  body {
-    background: rgb(24, 24, 24);
-    position: relative;
-    padding: 0px;
+  3% {
+    fill-opacity: 0.4;
   }
 
-  h2 {
-    color: white;
-    font-family: Monaco !important;
-    font-weight: bold;
-    letter-spacing: -0.11em;
+  6% {
+    fill-opacity: 1;
   }
 
-  button.btn-lg {
-    margin-top: -6px;
-    margin-right: 18px;
-    font-family: Arial, Helvetica, sans-serif !important;
+  7% {
+    fill-opacity: 0.4;
   }
 
-
-  button.btn-lg a,
-  button.btn-lg a:hover {
-    color: white;
-    font-weight: bold !important;
-    text-decoration: none;
+  8% {
+    fill-opacity: 1;
   }
 
-  #grid {
-    background: rgb(24, 24, 24);
-    border-radius: 8px;
-    margin-top: 16px;
-    width: 800px;
+  9% {
+    fill-opacity: 0.4;
   }
 
-  #updates {
-    background: rgb(240, 240, 240);
-    font-family: "Source Code Pro", Consolas, monaco, monospace;
-    height: 790px;
-    overflow: scroll;
-    border-radius: 8px;
-    margin-top: 19px;
-    padding: 12px;
-    font-size: 16px;
+  10% {
+    fill-opacity: 1;
   }
 
-  #updates p {
-    background: white;
-    border-bottom: 1px solid #ccc;
-    line-height: 16px;
-    padding: 5px;
-    border-radius: 4px;
+  100% {
+    fill-opacity: 1;
   }
-
-  #updates p b {
-    font-weight: 700;
-  }
-
-  #footer {
-    color: white !important;
-    margin-top: 19px;
-  }
-
-  code {
-    display: block;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    font-size: 18px;
-    text-align: center;
-  }
-
-  .square {
-    width: 19px;
-    height: 19px;
-    display: inline-block;
-    position: relative;
-    stroke-width: 2px;
-    stroke: #cfd4d4;
-    stroke-opacity: 0.7;
-    fill-opacity: 0.85;
-    cursor: pointer;
-  }
-
-  .square.selected {
-    fill-opacity: 0.8;
-    animation: flicker 5s infinite 5s step-end;
-  }
-
-  @keyframes flicker {
-    0% {
-      fill-opacity: 1;
-    }
-
-    3% {
-      fill-opacity: 0.4;
-    }
-
-    6% {
-      fill-opacity: 1;
-    }
-
-    7% {
-      fill-opacity: 0.4;
-    }
-
-    8% {
-      fill-opacity: 1;
-    }
-
-    9% {
-      fill-opacity: 0.4;
-    }
-
-    10% {
-      fill-opacity: 1;
-    }
-
-    100% {
-      fill-opacity: 1;
-    }
-  }
+}
