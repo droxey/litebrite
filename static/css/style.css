@@ -15,10 +15,15 @@
     color: white;
   }
 
+  button.btn-lg {
+     margin-top: -5px;
+  }
+
+
   button.btn-lg a,
   button.btn-lg a:hover {
     color: white;
-    font-weight: bolder;
+    font-weight: 900;
     text-decoration: none;
   }
 
@@ -51,6 +56,10 @@
 
   #updates p b {
     font-weight: 700;
+  }
+
+  #footer {
+    color: white;
   }
 
   code {
