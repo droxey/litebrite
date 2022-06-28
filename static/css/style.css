@@ -18,6 +18,8 @@
   button.btn-lg a,
   button.btn-lg a:hover {
     color: white;
+    font-weight: bolder;
+    text-decoration: none;
   }
 
   #grid {
