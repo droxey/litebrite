@@ -16,10 +16,12 @@ h2 {
   font-family: Monaco !important;
   font-weight: bold;
   letter-spacing: -0.11em;
+  margin-bottom: 17px;
 }
 
 button.btn-lg {
-  margin-top: -6px;
+  margin-top: -4px;
+  margin-bottom: 0px;
   margin-right: 18px;
   font-family: Arial, Helvetica, sans-serif !important;
 }
@@ -35,14 +37,13 @@ button.btn-lg a:hover {
 #grid {
   background: rgb(24, 24, 24);
   border-radius: 8px;
-  margin-top: 16px;
   width: 800px;
 }
 
 #updates {
   background: rgb(240, 240, 240);
   font-family: "Source Code Pro", Consolas, monaco, monospace;
-  height: 790px;
+  height: 787px;
   overflow: scroll;
   border-radius: 8px;
   margin-top: 19px;
